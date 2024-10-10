@@ -8,10 +8,10 @@ export const personalData = {
   address: 'Bakolia, Chittagong, Bangladesh ',
   github: 'https://github.com/Hamed18/',
   facebook: 'https://www.facebook.com/profile.php?id=100071972022937',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  linkedIn: 'https://www.linkedin.com/in/hamed-hasan-4ab5981b0/',
+  twitter: '',
+  stackOverflow: '',
   leetcode: "https://leetcode.com/u/Hamed_Hasan/",
-  devUsername: "hamed18",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  devUsername: "",
+  resume: ""
 }
