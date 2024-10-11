@@ -4,7 +4,7 @@ export const personalData = {
   teamworkPic: '/teamwork.jpg',
   teamworkDescription: [
     "(1) Problem Solving and Team Work: I have participated in many programming contest that helped to improve problem solving and team work.",
-    "(2) Speaking and Listening: I was also a national debater that helped me to improve public speaking and presentation skills.",
+    "(2) Communication and English proficiency: I was also a national debater that helped me to improve public speaking and presentation skills.",
     "(3) Agile to Learn new Technologies: As a CS student, I am familiar with the process of learning new tools and technology."
   ],
   designation: "Web Developer",
