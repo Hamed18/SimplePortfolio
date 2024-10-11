@@ -8,7 +8,7 @@ export const personalData = {
     "(3) Agile to Learn new Technologies: As a CS student, I am familiar with the process of learning new tools and technology."
   ],
   designation: "Web Developer",
-  description: "My name is Hamed Hasan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using MERN stack. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Hamed Hasan. I am a professional and passionate programmer. I like to learn new technologies and passionate about problem-solving. My core skill is based on JavaScript and I love to do most of the things using MERN stack. I am available for remote job or intern opportunity. In my leisure time, I participate in debate events and competitve programming contests.",
   email: 'hamedcnec@gmail.com',
   phone: '+8801834937497',
   address: 'Bakolia, Chittagong, Bangladesh ',
