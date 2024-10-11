@@ -12,6 +12,8 @@ export const projectsData = [
         role: 'Full-Stack Developer',
         code: '',
         demo: '',
+        viewSite : 'https://food-sharing-authentication.web.app/',
+        sourceCode : 'https://github.com/Hamed18/Food-Sharing-Client',
         image: crefin,
     },
     {
@@ -22,6 +24,8 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
+        viewSite : 'https://voyagevista-ec20a.web.app/',
+        sourceCode : 'https://github.com/Hamed18/VoyageVista-client',
         image: travel,
     },
     {
@@ -32,6 +36,8 @@ export const projectsData = [
         code: '',
         role: 'Front End Developer',
         demo: '',
+        viewSite: 'https://hamed18.github.io/Smart-Ticketing-System/',
+        sourceCode : 'https://github.com/Hamed18/Smart-Ticketing-System',
         image: realEstate,
     },
     {
@@ -42,6 +48,8 @@ export const projectsData = [
         code: '',
         demo: '',
         image: ayla,
+        viewSite : 'https://meaty-debt.surge.sh/',
+        sourceCode : 'https://github.com/Hamed18/alphabet-clash-game',
         role: 'Full Stack Developer',
     }
 ];
