@@ -2,7 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
-
+import teamwork from "../../../../public/teamwork.jpg";
 
 function AboutSection() {
   return (
@@ -25,7 +25,29 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
-            width={280}
+            width={320}
+            height={280}
+            alt="Hamed Hasan"
+            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          />
+        </div>
+      </div>
+      {/* why should company hire you section */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mt-8 lg:mt-12">
+        <div className="order-2 lg:order-1">
+          <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
+            Who should you hire me?
+          </p>
+          <div className="text-gray-200 text-sm lg:text-lg space-y-4">
+            {personalData.teamworkDescription.map((point, index) => (
+              <p key={index}>{point}</p>
+            ))}
+          </div>
+        </div>
+        <div className="flex justify-center order-1 lg:order-2">
+          <Image
+            src={personalData.teamworkPic}
+            width={375}
             height={280}
             alt="Hamed Hasan"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
@@ -34,6 +56,6 @@ function AboutSection() {
       </div>
     </div>
   );
-};
+}
 
 export default AboutSection;
